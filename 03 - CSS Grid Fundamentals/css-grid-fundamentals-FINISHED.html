@@ -24,9 +24,14 @@
   <style>
     .container {
       display: grid;
-      grid-template-columns: 200px 500px;
+
+      /* grid-template-columns:10rem 30rem auto;  auto will layout responsively */
+      grid-template-columns:repeat(5, 10rem); /* repeat command (amount, width) */
+      /* grid-template-columns:10rem 30rem 10rem; */
+      grid-gap:2rem;
+     /* grid-template-columns: 200px 500px;
       grid-template-rows: 200px 100px 400px;
-      grid-gap: 20px;
+      grid-gap: 20px;*/
     }
   </style>
 </body>

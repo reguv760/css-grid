@@ -12,7 +12,7 @@
   <div class="container">
     <div class="item">1</div>
     <div class="item">2</div>
-    <div class="item">3</div>
+    <div class="item">deez nutz</div>
     <div class="item">4</div>
     <div class="item">5</div>
     <div class="item">6</div>
@@ -29,8 +29,13 @@
 
   <style>
     .container {
+      height:60rem;
       display: grid;
       grid-gap: 20px;
+     /* grid-template-columns:  1fr 1fr 1fr 1fr;  fractional unit; readjusts width for EXPLICIT rows */
+      /*grid-template-rows: 1fr 5fr 1fr 1fr;*/
+      border:10px solid var(--yellow);
+      grid-template-columns: auto 1fr;
     }
   </style>
 </body>
