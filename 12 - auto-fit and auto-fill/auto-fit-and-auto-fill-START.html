@@ -37,6 +37,8 @@
       display: grid;
       grid-gap: 20px;
       border: 10px solid var(--yellow);
+      /*grid-template-columns: repeat(auto-fill, 150px);*/ /* responsive columns */
+      grid-template-columns: (auto-fit, 150px); /* fits based on explicit # of tracks; not responsive */
     }
   </style>
 </body>
